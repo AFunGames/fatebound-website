@@ -1,0 +1,44 @@
+.scroll-wrapper {
+  overflow-x: hidden; /* Hide the horizontal scrollbar */
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px; /* Add space at the bottom of the scroll wrapper */
+}
+
+#feature-content {
+  display: flex; /* Align features in a row */
+  transition: transform 0.5s ease-in-out; /* Smooth transition between slides */
+}
+
+.feature-item {
+  min-width: 100%; /* Ensure each feature takes full width of the view */
+  padding: 60px; /* Add padding inside each feature */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.feature-item .col-lg-6 {
+  margin-bottom: 20px; /* Add space between the text and image columns */
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; /* Add spacing between feature and pagination */
+}
+
+.pagination-controls .pagination-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  border: none;
+}
+
+.pagination-controls .pagination-btn.active {
+  background-color: #007bff;
+}
+
+.pagination-controls .pagination-btn:hover {
+  cursor: pointer;
+}

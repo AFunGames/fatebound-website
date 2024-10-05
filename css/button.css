@@ -1,0 +1,20 @@
+.btn-custom {
+    background-color: #4d5e80; /* Customize this to match your primary color */
+    color: white; /* Make text white */
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded corners like the first button */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-custom:hover {
+    background-color: #3c4a66; /* Darken on hover */
+    text-decoration: none; /* Keep no underline */
+}
+
+.btn-label {
+    color: #6c757d; /* Text-muted color */
+    margin-left: 10px; /* Add space between the button and the label */
+}

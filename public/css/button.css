@@ -18,3 +18,18 @@
     color: #6c757d; /* Text-muted color */
     margin-left: 10px; /* Add space between the button and the label */
 }
+
+.patreon-button {
+    background-color: #f96854; /* Кольорова схема Patreon */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.patreon-button:hover {
+    background-color: #d55648; /* Темніший відтінок при наведенні */
+}
